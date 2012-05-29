@@ -14,7 +14,21 @@
 		010472B515746BD3002FAF71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 010472B415746BD3002FAF71 /* main.m */; };
 		010472B915746BD3002FAF71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 010472B815746BD3002FAF71 /* AppDelegate.m */; };
 		010472BC15746BD3002FAF71 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010472BA15746BD3002FAF71 /* MainStoryboard.storyboard */; };
-		010472BF15746BD3002FAF71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010472BE15746BD3002FAF71 /* ViewController.m */; };
+		010472CA15746DF8002FAF71 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010472C915746DF8002FAF71 /* TableViewController.m */; };
+		010472CF15746F48002FAF71 /* Building.m in Sources */ = {isa = PBXBuildFile; fileRef = 010472CE15746F48002FAF71 /* Building.m */; };
+		010472D415747C06002FAF71 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010472D315747C06002FAF71 /* MapKit.framework */; };
+		010472D71574852E002FAF71 /* BuildingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010472D61574852E002FAF71 /* BuildingViewController.m */; };
+		010472DB157491E4002FAF71 /* UCI_Coordinates.txt in Resources */ = {isa = PBXBuildFile; fileRef = 010472DA157491E4002FAF71 /* UCI_Coordinates.txt */; };
+		010472DD157495C6002FAF71 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010472DC157495C6002FAF71 /* CoreLocation.framework */; };
+		010472E51574A34B002FAF71 /* 177-building.png in Resources */ = {isa = PBXBuildFile; fileRef = 010472DF1574A34B002FAF71 /* 177-building.png */; };
+		010472E61574A34B002FAF71 /* 178-city.png in Resources */ = {isa = PBXBuildFile; fileRef = 010472E01574A34B002FAF71 /* 178-city.png */; };
+		010472E71574A34B002FAF71 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 010472E11574A34B002FAF71 /* Icon.png */; };
+		010472E81574A34B002FAF71 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 010472E21574A34B002FAF71 /* Icon@2x.png */; };
+		010472E91574A34B002FAF71 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 010472E31574A34B002FAF71 /* iTunesArtwork.png */; };
+		010472EA1574A34B002FAF71 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 010472E41574A34B002FAF71 /* iTunesArtwork@2x.png */; };
+		010472ED1574A45C002FAF71 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010472EC1574A45C002FAF71 /* MapViewController.m */; };
+		0135B9B01574AA8B00AC5F12 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0135B9AF1574AA8B00AC5F12 /* Icon.png */; };
+		0135B9B31574AA9800AC5F12 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0135B9B21574AA9800AC5F12 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +36,32 @@
 		010472A815746BD3002FAF71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		010472AA15746BD3002FAF71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		010472AC15746BD3002FAF71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		010472B015746BD3002FAF71 /* UCI Map-Info.plist */ = {isa = PBXFileReference; path = "UCI Map-Info.plist"; sourceTree = "<group>"; };
+		010472B015746BD3002FAF71 /* UCI Map-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UCI Map-Info.plist"; sourceTree = "<group>"; };
 		010472B215746BD3002FAF71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		010472B415746BD3002FAF71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		010472B615746BD3002FAF71 /* UCI Map-Prefix.pch */ = {isa = PBXFileReference; path = "UCI Map-Prefix.pch"; sourceTree = "<group>"; };
-		010472B715746BD3002FAF71 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		010472B615746BD3002FAF71 /* UCI Map-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UCI Map-Prefix.pch"; sourceTree = "<group>"; };
+		010472B715746BD3002FAF71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		010472B815746BD3002FAF71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		010472BB15746BD3002FAF71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		010472BD15746BD3002FAF71 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		010472BE15746BD3002FAF71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		010472C815746DF8002FAF71 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		010472C915746DF8002FAF71 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		010472CD15746F48002FAF71 /* Building.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Building.h; sourceTree = "<group>"; };
+		010472CE15746F48002FAF71 /* Building.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Building.m; sourceTree = "<group>"; };
+		010472D315747C06002FAF71 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		010472D51574852E002FAF71 /* BuildingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingViewController.h; sourceTree = "<group>"; };
+		010472D61574852E002FAF71 /* BuildingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingViewController.m; sourceTree = "<group>"; };
+		010472DA157491E4002FAF71 /* UCI_Coordinates.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UCI_Coordinates.txt; sourceTree = "<group>"; };
+		010472DC157495C6002FAF71 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		010472DF1574A34B002FAF71 /* 177-building.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "177-building.png"; sourceTree = "<group>"; };
+		010472E01574A34B002FAF71 /* 178-city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "178-city.png"; sourceTree = "<group>"; };
+		010472E11574A34B002FAF71 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		010472E21574A34B002FAF71 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		010472E31574A34B002FAF71 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		010472E41574A34B002FAF71 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		010472EB1574A45B002FAF71 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		010472EC1574A45C002FAF71 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		0135B9AF1574AA8B00AC5F12 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0135B9B21574AA9800AC5F12 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010472DD157495C6002FAF71 /* CoreLocation.framework in Frameworks */,
+				010472D415747C06002FAF71 /* MapKit.framework in Frameworks */,
 				010472A915746BD3002FAF71 /* UIKit.framework in Frameworks */,
 				010472AB15746BD3002FAF71 /* Foundation.framework in Frameworks */,
 				010472AD15746BD3002FAF71 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +83,10 @@
 		0104729915746BD3002FAF71 = {
 			isa = PBXGroup;
 			children = (
+				0135B9B21574AA9800AC5F12 /* Icon@2x.png */,
+				0135B9AF1574AA8B00AC5F12 /* Icon.png */,
+				010472DC157495C6002FAF71 /* CoreLocation.framework */,
+				010472D315747C06002FAF71 /* MapKit.framework */,
 				010472AE15746BD3002FAF71 /* UCI Map */,
 				010472A715746BD3002FAF71 /* Frameworks */,
 				010472A515746BD3002FAF71 /* Products */,
@@ -77,12 +114,19 @@
 		010472AE15746BD3002FAF71 /* UCI Map */ = {
 			isa = PBXGroup;
 			children = (
+				010472DE1574A32E002FAF71 /* Images */,
+				010472CC15746F29002FAF71 /* Model */,
 				010472B715746BD3002FAF71 /* AppDelegate.h */,
+				010472DA157491E4002FAF71 /* UCI_Coordinates.txt */,
 				010472B815746BD3002FAF71 /* AppDelegate.m */,
 				010472BA15746BD3002FAF71 /* MainStoryboard.storyboard */,
-				010472BD15746BD3002FAF71 /* ViewController.h */,
-				010472BE15746BD3002FAF71 /* ViewController.m */,
 				010472AF15746BD3002FAF71 /* Supporting Files */,
+				010472C815746DF8002FAF71 /* TableViewController.h */,
+				010472C915746DF8002FAF71 /* TableViewController.m */,
+				010472D51574852E002FAF71 /* BuildingViewController.h */,
+				010472D61574852E002FAF71 /* BuildingViewController.m */,
+				010472EB1574A45B002FAF71 /* MapViewController.h */,
+				010472EC1574A45C002FAF71 /* MapViewController.m */,
 			);
 			path = "UCI Map";
 			sourceTree = "<group>";
@@ -96,6 +140,28 @@
 				010472B615746BD3002FAF71 /* UCI Map-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		010472CC15746F29002FAF71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				010472CD15746F48002FAF71 /* Building.h */,
+				010472CE15746F48002FAF71 /* Building.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		010472DE1574A32E002FAF71 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				010472DF1574A34B002FAF71 /* 177-building.png */,
+				010472E01574A34B002FAF71 /* 178-city.png */,
+				010472E11574A34B002FAF71 /* Icon.png */,
+				010472E21574A34B002FAF71 /* Icon@2x.png */,
+				010472E31574A34B002FAF71 /* iTunesArtwork.png */,
+				010472E41574A34B002FAF71 /* iTunesArtwork@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +216,15 @@
 			files = (
 				010472B315746BD3002FAF71 /* InfoPlist.strings in Resources */,
 				010472BC15746BD3002FAF71 /* MainStoryboard.storyboard in Resources */,
+				010472DB157491E4002FAF71 /* UCI_Coordinates.txt in Resources */,
+				010472E51574A34B002FAF71 /* 177-building.png in Resources */,
+				010472E61574A34B002FAF71 /* 178-city.png in Resources */,
+				010472E71574A34B002FAF71 /* Icon.png in Resources */,
+				010472E81574A34B002FAF71 /* Icon@2x.png in Resources */,
+				010472E91574A34B002FAF71 /* iTunesArtwork.png in Resources */,
+				010472EA1574A34B002FAF71 /* iTunesArtwork@2x.png in Resources */,
+				0135B9B01574AA8B00AC5F12 /* Icon.png in Resources */,
+				0135B9B31574AA9800AC5F12 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +237,10 @@
 			files = (
 				010472B515746BD3002FAF71 /* main.m in Sources */,
 				010472B915746BD3002FAF71 /* AppDelegate.m in Sources */,
-				010472BF15746BD3002FAF71 /* ViewController.m in Sources */,
+				010472CA15746DF8002FAF71 /* TableViewController.m in Sources */,
+				010472CF15746F48002FAF71 /* Building.m in Sources */,
+				010472D71574852E002FAF71 /* BuildingViewController.m in Sources */,
+				010472ED1574A45C002FAF71 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +352,7 @@
 				010472C415746BD3002FAF71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

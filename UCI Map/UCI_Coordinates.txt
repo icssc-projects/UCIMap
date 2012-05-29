@@ -1,0 +1,152 @@
+﻿33.64904,-117.840705	1	Irvine Barclay Theatre
+33.647355,-117.836862	2	Multipurpose Academic & Administrative Bldg.	MPAA
+33.647248,-117.835908	3	Education Building	EDUC
+33.646784,-117.835929	4	Law Building	LAW
+33.64556,-117.835865	5	Student Health Center	SHC
+33.645587,-117.83491	6	International Center
+33.646408,-117.834824	7	Public Services	PSB
+33.651047,-117.842444	9	Bike Shop
+33.640708,-117.84153	31	Faculty/Staff Housing Office
+33.640333,-117.849856	40	Electrical Substation
+33.639503,-117.849973	41	Env. Health & Safety Services Facility
+33.650209,-117.846414	58	Mesa Arts Building	MAB
+33.651271,-117.846361	59	Mesa Office Building	MOB 
+33.649324,-117.854268	80	Beckman Center of the National Academies of Sciences & Engineering
+33.662898,-117.856736	90	Child Development Center	CDC
+33.664059,-117.855191	91	Receiving
+33.664667,-117.854783	92	Interim Office Building
+33.664667,-117.854783	93	Mailroom
+33.664836,-117.853721	94	Air Pollution Labs	APL
+33.664309,-117.854172	95	Faculty Research Facility	FRF
+33.664033,-117.853828	96	Arboretum	ARBO
+33.663613,-117.854182	97	Facilities Management Shops
+33.663577,-117.855373	98	Recycling Center
+33.647477,-117.841782	101	Gateway Study Center	GC
+33.647218,-117.840978	102	Langson Library (Main Library)	LLIB
+33.647852,-117.841836	103	Cross-Cultural Center	CRCC
+33.647805,-117.842317	105	Student Services I	SS1
+33.647805,-117.842317	105	Student Services II	SS2
+33.648384,-117.841177	111	Aldrich Hall	ALH
+33.649394,-117.842517	113	Student Center	SC
+33.649394,-117.842517	200	Social Science Hall	SSH
+33.646491,-117.840296	201	Social Science Tower	SST
+33.645901,-117.839996	202	Social Science Laboratory	SSL
+33.647021,-117.840095	203	Social Science Trailer	SSTR
+33.645574,-117.840707	204	Phoenix Food Court
+33.646155,-117.839001	210	Social Ecology I	SE
+33.646834,-117.839591	211	Social Science Plaza A	SSPA
+33.647192,-117.839766	212	Social Science Lecture Hall	SSLH
+33.646865,-117.838996	213	Social Science Plaza B	SSPB
+33.647087,-117.839132	214	Social & Behavioral Sciences Gateway
+33.646658,-117.838692	215	Social Ecology II	SE2
+33.646649,-117.838091	221	Merage School of Business	SB
+33.645872,-117.837329	230	University Extension B	UNEX
+33.646479,-117.837287	231	University Extension A/Summer Session	UNEX
+33.645942,-117.83725	232	University Extension C	UNEX
+33.646295,-117.837429	233	Alumni House	AH
+33.645701,-117.837196	234	University Extension D	UNEX
+33.64518,-117.836375	236	University Extension H	UNEX
+33.645332,-117.836558	238	University Extension ESL Offices
+33.644296,-117.841783	302	Information & Computer Science	ICS
+33.644707,-117.841182	303	Engineering Tower	ET
+33.644091,-117.841483	304	Information & Computer Science 2	ICS2
+33.64443,-117.840732	305	Engineering Lecture Hall	ELH
+33.643769,-117.841139	308	Engineering Hall	EH
+33.643912,-117.840614	311	Rockwell Engineering Center	REC
+33.64418,-117.84038	313	Disability Services Center
+33.643287,-117.842033	314	Donald Bren Hall	DBH
+33.644421,-117.839981	315	Interim Classroom Facility	ICF
+33.64396,-117.840187	317	Engineering & Computing Trailer	ECT
+33.644156,-117.83978	319	Interfaith
+33.643147,-117.840133	321	Engineering Gateway	EG
+33.643754,-117.839769	323	Engineering Laboratory Facility	ELF
+33.642827,-117.841209	325	California Institute for Telecomunication & Information Technology	Calit2
+33.644461,-117.844245	400	Rowland Hall	RH
+33.64413,-117.843526	401	Frederick Reines Hall	FRH
+33.644062,-117.845489	402	Natural Sciences II	NS2
+33.644503,-117.842746	403	Parkview Classroom Building	PCB
+33.643666,-117.845291	404	Physical Sciences High Bay
+33.643407,-117.84396	411	Physical Sciences Lecture Hall	PSLH
+33.643381,-117.843512	413	Physical Sciences Classroom Building	PSCB
+33.64205,-117.844542	415	Multipurpose Science & Technology Bilding	MSTB
+33.643694,-117.84466	417	Croul Hall	CRH
+33.64198,-117.846256	423	Administrative Modular
+33.645929,-117.844378	500	B.C.'s Cavern Food Court
+33.645661,-117.844614	501	Howard Schneiderman Lecture Hall	HSLH
+33.646214,-117.844947	502	Steinhaus Hall	SH
+33.645143,-117.844657	503	McGaugh Hall	MH
+33.646369,-117.845791	506	Qureshey Research Laboratory	QRL
+33.646262,-117.846135	512	Bonney Research Laboratory	BRL
+33.647093,-117.845416	514	Greenhouse
+33.643788,-117.846349	515	Bison Modular
+33.646567,-117.846255	516	Center for the Neurobiology of Learning & Memory Annex	CNLMA
+33.644468,-117.845537	517	Natural Sciences I	NS1
+33.645441,-117.845837	519	Biological Sciences III
+33.645861,-117.84662	520	Ayala Science Library	SLIB
+33.64646,-117.846974	521	KUCI Radio Station
+33.646495,-117.846631	522	Arts Annex Trailers	ACE
+33.646897,-117.846738	523	Humanities Interim Classroom Facility/Studio Art Trailer	HICF
+33.646826,-117.844635	560	Founders' Court
+33.647585,-117.843541	600	Krieger Hall	KH
+33.647326,-117.844024	601	Humanities Hall	HH
+33.647121,-117.844356	603	Humanities Modular
+33.648362,-117.843884	610	Humanities Instructional Building	HIB
+33.648076,-117.844485	611	Humanities Gateway	HG
+33.648187,-117.845507	625	Humanities Office Building 2	HOB2
+33.642873,-117.838093	653	Anteater Instruction & Research Building	AIRB
+33.649536,-117.84449	710	Winifred Smith Hall	WSH
+33.649695,-117.844949	711	Claire Trevor Theatre	CTT
+33.649916,-117.844289	712	University Art Gallery Beall Center for Art & Technology
+33.649442,-117.845611	713	Robert Cohen Theatre & Dance Studios
+33.649898,-117.843981	714	Arts Instruction & Technology Resource Center	AITR
+33.649907,-117.845	715	Drama Building	DRA
+33.649674,-117.844131	718	Choral Studio
+33.650264,-117.844496	720	Sculpt./Ceramic Studios/Nixon Theatre	SCS
+33.650077,-117.845209	721	Contemporary Arts Center	CAC
+33.650163,-117.844879	722	Art Studio	ART
+33.649708,-117.845781	723	Production Studio
+33.650136,-117.845681	725	Studio Four	STU4
+33.64933,-117.844338	726	Music & Media Building	MM
+33.650523,-117.844866	727	Art, Culture & Technology	ACT
+33.650608,-117.84522	728 William J. Gillespie Performance Studios	PSTU
+33.646066,-117.849147	800	Cafe Med
+33.642945,-117.842565	801	University Club	UN CLB
+33.6462,-117.84953	802	Berk Hall/Nursing Science	BH
+33.646437,-117.850123	810	Medical Surge I	MS1
+33.645519,-117.849817	811	Medical Sciences B	MS-B
+33.646973,-117.850273	812	Medical Surge II	MS2
+33.645526,-117.85045	813	Medical Sciences A	MS-A
+33.645024,-117.84979	815	Medical Sciences A Administration
+33.6448,-117.84993	817	Beckman Laser Institute	BLI
+33.644809,-117.850402	819	Medical Sciences A Annex
+33.646801,-117.85104	820	Gottschalk Medical Plaza
+33.645526,-117.85045	821	Medical Sciences C	MS-C
+33.645494,-117.851021	825	Medical Sciences D, Cheney Hall
+33.645362,-117.851526	827	Medical Sciences E	MS-E
+33.644804,-117.851196	829	Plumwood House	PH
+33.645585,-117.852014	831	Tamkin Student Lecture Building
+33.645489,-117.852379	832	MRI 4T Trailer
+33.645333,-117.852365	833	Medical Sciences Classroom Facility
+33.644983,-117.852642	835	Irvine Hall	IH
+33.644672,-117.852156	836	Medical Education Building
+33.64417,-117.851368	837	Gillespie Neuroscience Research Facility GNRF
+33.644094,-117.85211	839	Sprague Hall	SPH
+33.645244,-117.852145	841	MRI 3T Trailer
+33.643485,-117.852156	843	Hewitt Research Hall	HRH
+33.643487,-117.851344	845	Sue & Bill Gross Hall–A CIRM Institute
+33.642791,-117.848704	897	Grounds Maintenance Facility
+33.642427,-117.848493	899	Building Services Building
+33.648373,-117.846261	900	Thermal Energy Storage Tank
+33.649286,-117.847103	901	Bren Events Center
+33.647877,-117.846817	902	Central Plant	CP
+33.648031,-117.848083	903	Crawford Hall	CH
+33.648398,-117.847812	905	Crawford Pool
+33.649894,-117.84937	907	Track & Field House
+33.648806,-117.849791	909	Crawford Field
+33.650164,-117.85095	911	Anteater Stadium
+33.649931,-117.848086	913	Tennis Courts
+33.650722,-117.849245	915	Vista Field
+33.651184,-117.848112	917	Anteater Ballpark/Newkirk Pavilion
+33.647614,-117.84921	919	Crawford Clubhouse
+33.650702,-117.838336	4199	University Tower	UT
+33.645957,-117.842624	0	Aldrich Park

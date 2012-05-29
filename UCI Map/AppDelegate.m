@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "Building.h"
+#import "TableViewController.h"
+#import "MapViewController.h"
 
 @implementation AppDelegate
 
@@ -14,7 +17,49 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"UCI_Coordinates" ofType:@"txt"];
+    NSString *content = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+    NSArray *rows = [content componentsSeparatedByString:@"\n"];
+    
+    NSMutableArray *buildings = [NSMutableArray array];
+    
+    for (NSString *row in rows)
+    {
+        
+        //latitude,longitude    buildingNumber  BuildingName    [abbreviation]
+        NSArray *elements = [row componentsSeparatedByString:@"\t"];
+        if (elements.count > 2)
+        {
+            NSArray *coordinatesArray = [[elements objectAtIndex:0] componentsSeparatedByString:@","];
+            if (coordinatesArray.count != 2) continue;
+            
+            CLLocationCoordinate2D coordinate;
+            coordinate.latitude = [[coordinatesArray objectAtIndex:0] doubleValue];
+            coordinate.longitude = [[coordinatesArray objectAtIndex:1] doubleValue];
+            
+            NSString *abbreviation = nil;
+            if (elements.count > 3) abbreviation = [elements objectAtIndex:3];
+            
+            NSString *name = [elements objectAtIndex:2];
+            
+            Building *building = [[Building alloc] initWithName:name abbreviation:abbreviation  coordinate:coordinate];
+            
+            [buildings addObject:building];
+            
+            
+        }
+    }
+    [buildings sortUsingSelector:@selector(compare:)];
+    
+    UITabBarController *barController = (UITabBarController *) self.window.rootViewController;
+    
+    UINavigationController * navController = [barController.viewControllers objectAtIndex:0];
+    TableViewController * buildingsView = [navController.viewControllers objectAtIndex:0];
+    buildingsView.buildings = buildings;
+    
+    MapViewController * mapController = [barController.viewControllers objectAtIndex:1];
+    mapController.buildings = buildings;
+    
     return YES;
 }
 							
